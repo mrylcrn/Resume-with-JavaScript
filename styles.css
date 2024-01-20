@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+}
+
+button {
+    height: 70px;
+    width: 100px;
+    padding: 5px;
+    background-color: darkslateblue;
+    color: #ddd;
+    margin: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.header p {
+    color: #777;
+    font-size: 16px;
+    padding: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact .info {
+    display: inline-block;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.contact .socials {
+    display: block;
+    justify-content: space-between;
+    padding-top: 5px;
+    float: right;
+}
+
+a, a:hover, a:visited {
+    color: #2E75B2;
+}
+
+.contact h2 {
+    font-size: 20px;
+}
+
+.contact span {
+    font-weight: bold;
+}
+
+.education h2 {
+    font-size: 20px;
+}
+
+.education h3 {
+    font-size: 16px;
+}
+
+.education p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.education .school {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.experience h2 {
+    font-size: 20px;
+}
+
+.experience h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.experience .jobtitle1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.experience #description1 {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.experience .jobtitle2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.experience #description2 {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.experience .jobtitle3 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.experience .jobtitle3 h3 {
+    font-weight: bolder;
+}
+
+.experience #description3 {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.skills h2 {
+    font-size: 20px;
+}
+
+.skills ul {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.skills ul li {
+    font-size: 16px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
